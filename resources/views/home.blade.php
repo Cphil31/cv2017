@@ -28,10 +28,10 @@
 	</div>
 
 
-	<div class="ui grid">
-		<div class="six wide column"></div>
-		<div class="five wide column"></div>
-		<div class="four wide column"></div>	
+	<div class="ui five item menu">
+		<a class="item">Editorials</a>
+		<a class="item">Reviews</a>
+		<a class="item">Upcoming Events</a>
 	</div>
 
 	
