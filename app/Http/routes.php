@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
+Route::get('/', function () {return view('home');
 });
+
+Route::get('formations');
+Route::get('compétences');
+Route::get('expériences');
+Route::get('loisirs');
+Route::get('contact',"CvController@contact");
