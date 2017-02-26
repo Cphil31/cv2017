@@ -29,24 +29,44 @@
 				<a class="item" href="experiences">Expériences</a>
 				<a class="item" href="loisirs">Loisirs</a>
 			</div>
-
-			<h1>Contact</h1>
-
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quibusdam repellendus, tempora beatae doloribus ratione iste voluptate molestias? Perspiciatis quasi vitae, molestiae nisi obcaecati aperiam corporis praesentium aspernatur blanditiis libero!</p>
-
+			<h2>Contact</h2>
 		</div>
 		<div class="five wide column"></div>	
 	</div>
 
-	<div class="ui grid">
-		<div class="four wide column"></div>
-		<div class="four wide column"></div>
-		<div class="four wide column"></div>
 
+	<div class="ui grid">
+	<div class="five wide column"></div>
+		<div class="six wide column">
+
+			<form class="ui form">
+				<div class="field">
+					<label>First Name</label>
+					<input type="text" name="first-name" placeholder="Cecile">
+				</div>
+				<div class="field">
+					<label>Last Name</label>
+					<input type="text" name="last-name" placeholder="Philippe">
+				</div>
+				<div class="field">
+					<label>Mail</label>
+					<input type="text" name="mail" placeholder="cecilephilippe@mail.com">
+				</div>
+				<div class="field">
+					<label>Object</label>
+					<input type="text" name="object" placeholder="object">
+				</div>
+				<div class="field">
+					<label>Text</label>
+					<textarea></textarea>
+				</div>
+				<button class="ui button" type="submit">Submit</button>
+			</form>
+
+
+		</div>
+		<div class="five wide column"></div>
 	</div>
 
-
-	
-	
 </body>
 </html>
