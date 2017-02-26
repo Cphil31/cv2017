@@ -13,9 +13,14 @@
 
 Route::get('/', function () {return view('home');
 });
+Route::get('/formations', function () {return view('formations');
+});
+Route::get('/experiences', function () {return view('experiences');
+});
+Route::get('/competences', function () {return view('competences');
+});
+Route::get('/loisirs', function () {return view('loisirs');
+});
+Route::get('/contact', function () {return view('contact');
+});
 
-Route::get('formations');
-Route::get('compétences');
-Route::get('expériences');
-Route::get('loisirs');
-Route::get('contact',"CvController@contact");

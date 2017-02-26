@@ -23,14 +23,12 @@
 			<h1>Developpeur Web</h1>
 
 			<div class="ui five item menu">
-				<a class="item">Formations</a>
-				<a class="item">Compétences</a>
-				<a class="item">Expériences</a>
-				<a class="item">Loisirs</a>
-				<a class="item">Contact</a>
+				<a class="item" href="formations">Formations</a>
+				<a class="item" href="competences">Compétences</a>
+				<a class="item" href="experiences">Expériences</a>
+				<a class="item" href="loisirs">Loisirs</a>
+				<a class="item" href="contact">Contact</a>
 			</div>
-
-
 
 		</div>
 		<div class="five wide column"></div>	
